@@ -16,6 +16,10 @@ npm start
 ```
 
 ## Pack
+To install package tool run:
+```
+npm install -g pkg
+```
 
 For Mac:
 ```

@@ -1,16 +1,17 @@
 {
   "name": "tingodb-command",
   "version": "1.0.0",
-  "description": "Command line processing tool for tingodb",
+  "description": "Command line utilities for tingodb.",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/samuelhaefliger/PraxisApp-Tools.git"
+    "url": "https://github.com/samuelhaefliger/tingo-command.git"
   },
   "scripts": {
     "start": "node . ./data ./input.csv",
     "postinstall": "cp ./patch/* ./node_modules/tingodb/lib",
-    "pack-mac": "pkg -d -t node10-macos-x64 -o dist/tingo-batch index.js"
+    "pack-mac": "pkg -t node10-macos-x64 -o dist/tingo-command index.js",
+    "pack-win": "pkg -t node10-win-x64 -o dist/tingo-command index.js"
   },
   "keywords": [
     "tingodb",
