@@ -1,0 +1,8 @@
+# Data Folders
+data
+
+# Deployment folders
+dist
+
+# Modules
+node_modules
