@@ -1,2 +1,2 @@
-#_id:int;name
-5;Imported
+#_id:int;birthdate:date
+53;2002-11-03
